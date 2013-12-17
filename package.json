@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec",
-    "coveralls": "rm -rf lib-cov\njscoverage lib lib-cov\nMYAPP_COVERAGE=1 mocha -R mocha-lcov-reporter | coveralls\nrm -rf lib-cov"
+    "coveralls": "jscoverage lib\nMYAPP_COV=1 mocha -R mocha-lcov-reporter | coveralls"
   },
   "author": "",
   "license": "BSD-2-Clause",
