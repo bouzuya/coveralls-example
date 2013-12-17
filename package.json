@@ -1,0 +1,21 @@
+{
+  "name": "coveralls-example",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "coveralls": "rm -rf lib-cov\njscoverage lib lib-cov\nMYAPP_COVERAGE=1 mocha -R mocha-lcov-reporter | coveralls\nrm -rf lib-cov"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.15.1"
+  },
+  "devDependencies": {
+    "coveralls": "~2.6.0",
+    "jscoverage": "~0.3.8",
+    "mocha-lcov-reporter": "0.0.1"
+  }
+}
