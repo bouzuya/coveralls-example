@@ -9,13 +9,12 @@
   },
   "author": "",
   "license": "BSD-2-Clause",
-  "dependencies": {
-    "expect.js": "~0.2.0",
-    "mocha": "~1.15.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "coveralls": "~2.6.0",
     "jscoverage": "~0.3.8",
-    "mocha-lcov-reporter": "0.0.1"
+    "mocha-lcov-reporter": "0.0.1",
+    "mocha": "~1.15.1",
+    "chai": "~1.8.1"
   }
 }
