@@ -28,5 +28,7 @@ Settings
 Other examples
 ------------------------------------------------------------------------------
 
+- [bouzuya/node-backlog-api](https://github.com/bouzuya/node-backlog-api)
 - [bouzuya/bouzuya-fixtures](https://github.com/bouzuya/bouzuya-fixtures)
+- [bouzuya/hubot-backlog-scrum](https://github.com/bouzuya/hubot-backlog-scrum)
 
