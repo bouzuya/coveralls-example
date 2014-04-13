@@ -1,9 +1,10 @@
 coveralls-example
 ==============================================================================
 
-[![Build Status](https://travis-ci.org/bouzuya/coveralls-example.png?branch=master)](https://travis-ci.org/bouzuya/coveralls-example)
-
 coveralls-example.
+
+[![Build Status](https://travis-ci.org/bouzuya/coveralls-example.png?branch=master)](https://travis-ci.org/bouzuya/coveralls-example)
+[![Coverage Status](https://coveralls.io/repos/bouzuya/coveralls-example/badge.png)](https://coveralls.io/r/bouzuya/coveralls-example)
 
 Settings
 ------------------------------------------------------------------------------
@@ -11,7 +12,7 @@ Settings
 1. mkdir project
 2. mkdir lib test
 3. npm init
-4. package.json ( scripts.coveralls )
+4. update package.json ( scripts.coveralls )
 5. install modules for test
   - npm install --save-dev mocha
   - npm install --save-dev chai
@@ -19,8 +20,13 @@ Settings
   - npm install --save-dev coveralls
   - npm install --save-dev jscoverage
   - npm install --save-dev mocha-lcov-reporter
-7. index.js ( process.env.MYAPP\_COV )
+7. update index.js ( process.env.MYAPP\_COV )
 8. .travis.yml
-9. Travis CI
-10. Coveralls
+9. setting [Travis CI](https://travis-ci.org/)
+10. setting [Coveralls](https://coveralls.io/)
+
+Other examples
+------------------------------------------------------------------------------
+
+- [bouzuya/bouzuya-fixtures](https://github.com/bouzuya/bouzuya-fixtures)
 
