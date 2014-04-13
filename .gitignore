@@ -1,2 +1,4 @@
-/node_modules
-/lib-cov
+node_modules/
+lib-cov/
+coverage.html
+

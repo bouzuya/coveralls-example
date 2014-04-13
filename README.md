@@ -12,7 +12,7 @@ Settings
 1. mkdir project
 2. mkdir lib test
 3. npm init
-4. update package.json ( scripts.coveralls )
+4. update package.json ( scripts.coveralls & scripts.coverage )
 5. install modules for test
   - npm install --save-dev mocha
   - npm install --save-dev chai

@@ -5,16 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec",
-    "coveralls": "jscoverage lib\nMYAPP_COV=1 mocha -R mocha-lcov-reporter | coveralls"
+    "coveralls": "jscoverage lib\nMYAPP_COV=1 mocha -R mocha-lcov-reporter | coveralls",
+    "coverage": "jscoverage lib\nMYAPP_COV=1 mocha -R html-cov > coverage.html"
   },
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {},
   "devDependencies": {
+    "chai": "~1.8.1",
     "coveralls": "~2.6.0",
     "jscoverage": "~0.3.8",
-    "mocha-lcov-reporter": "0.0.1",
     "mocha": "~1.15.1",
-    "chai": "~1.8.1"
+    "mocha-lcov-reporter": "0.0.1"
   }
 }
